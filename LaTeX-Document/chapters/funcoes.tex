@@ -1,0 +1,30 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+\section{Funções}
+•
+Aqui estão as funções iniciais. Podem ser adicionadas mais, podem ser removidas. As funções primárias estarão marcadas como "base"
+
+\subsection{(base) Rastreamento de plantio}
+Uma função que usa os módulos na seção de componentes para rastrear as informações e detalhes obtidos da planta observada. Pode ser rastreada entre 1 a N plantas, onde será necessário obter os componentes para cada instância. \newline
+Para uma planta, 1 sensor temperatura e umidade. Para duas, 2 sensores temperaturas e umidades. Os módulos de câmeras são opcionais. \newline
+
+\subsection{(base) Webpage local}
+Uma página local onde o usuário pode acessar e verificar os dados que cada plantio está gerando, a cada 5 em 5 segundos. Opcional adicionar gráficos. Incrementar o número de plantas rastreadas baseado em quantas plantas foram registradas. \newline
+
+\subsection{Camera e visual}
+Uma seção onde as cameras são implementadas. Com isso, o webpage terá que tirar foto das plantas a cada 5 em 5 segundos. O usuário fica responsável em fixar a camera. \newline
+
+\subsection{Banco de dados}
+Uma função que permite guardas as informações relacionadas a cada planta. Logo, caso o usuário for plantar, por exemplo, feijão, todos os dados obtidos a essa instância serão registradas em um banco de dados local ou web. \newline
+
+\subsection{Dados padrões}
+Uma função que "baixa" dados padrões relacionados a cada planta. Logo, caso o usuário quiser plantar, por exemplo, feijão, poderá baixar os dados de feijão e verificar tempos ideais de plantio, tempo para germinação, umidade mínima e outros. \newline
+
+\subsection{Notificação}
+Uma função que notifica o usuário caso a terra esteja ficando muito seca, pouca luminosidade, dentre outros. Caso for combinado com a função de dados padrões, avisar quando os valores estiverem desviando do ideal. \newline
+
+\subsection{(base) Open Source}
+Permite ao usuário adicionar e modificar o sistema caso queira. Assim, caso o usuário queira adicionar irrigação automática, colocar o teste em uma estufa e mais, que se vire.
+
+\end{document}
