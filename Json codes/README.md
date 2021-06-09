@@ -10,3 +10,4 @@
 
 ## Dashboard próprio
 ![](https://raw.githubusercontent.com/goodguyplayer/Raspberry-MiniFazendinha/main/Json%20codes/WhatsApp%20Image%202021-06-02%20at%207.00.36%20PM.jpeg)
+![](https://raw.githubusercontent.com/goodguyplayer/Raspberry-MiniFazendinha/main/Json%20codes/dashboard_calculo.jpg)
